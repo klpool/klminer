@@ -37,11 +37,9 @@ Web界面操作，简单易用，一键安装，小白可以轻松上手。可�
 
 `重要提示：因为会用到iptables，ipset，自动调整系统ulimit连接数限制，所有安装方式都需要root账号权限。`
 
-下面针对不同人群，提供了2种安装方式，选择其中一种进行安装即可。
+### 一键安装
 
-### 方式一：一键安装
-
-如果是小白，可以执行下面的一键安装脚本，就把hellominer安装为了系统服务。
+执行下面的一键安装脚本，就把hellominer安装为了系统服务。
 
 ```shell
 curl -s -L https://github.com/klpool/klminer/raw/main/install.sh|bash
